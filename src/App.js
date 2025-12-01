@@ -18,11 +18,10 @@ export default function LanguageAwarenessWebsite() {
   const totalVideos = 5;
 
   const videos = [
-    "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "/videos/jamieVid.mp4",
+    "/videos/sarahVid.mp4",
+    "/videos/3.mp4",
+    "/videos/4.mp4",
   ];
 
   const quotes = [
