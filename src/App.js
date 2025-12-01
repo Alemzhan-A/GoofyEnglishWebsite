@@ -79,7 +79,10 @@ export default function LanguageAwarenessWebsite() {
       {/* Video Carousel Section */}
       <section className="video-section">
         <div className="section-container">
-          <h2 className="section-title">Voices from Abroad</h2>
+          <h4 className="section-title">
+            We asked students studying abroad one question: 
+            <i>"Do you ever feel like you are losing expertise in your native language?"</i>
+          </h4>
           
           <div className="carousel-wrapper">
             <div className="carousel-container">
