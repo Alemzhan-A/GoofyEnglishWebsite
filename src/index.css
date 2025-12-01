@@ -1,13 +1,323 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1b4b 0%, #581c87 50%, #9d174d 100%);
+}
+
+/* Hero Header */
+.hero-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), transparent);
+}
+
+.header-content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+  animation: fadeInDown 1s ease;
+  background: linear-gradient(to right, #22d3ee, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-subtitle {
+  font-size: 1.5rem;
+  color: #a5f3fc;
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Video Section */
+.video-section {
+  padding: 5rem 1.5rem;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(to right, #67e8f9, #f9a8d4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-wrapper {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.video-item {
+  position: absolute;
+  width: 600px;
+  height: 340px;
+  left: 50%;
+  top: 50%;
+  transition: all 0.7s ease-out;
+}
+
+.video-frame {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 4px solid rgba(34, 211, 238, 0.3);
+}
+
+.video-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.carousel-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-btn-prev {
+  background: linear-gradient(to right, #06b6d4, #2563eb);
+}
+
+.carousel-btn-next {
+  background: linear-gradient(to right, #a855f7, #ec4899);
+}
+
+.carousel-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-btn-prev:hover {
+  box-shadow: 0 15px 35px rgba(6, 182, 212, 0.5);
+}
+
+.carousel-btn-next:hover {
+  box-shadow: 0 15px 35px rgba(236, 72, 153, 0.5);
+}
+
+.carousel-btn svg {
+  transition: transform 0.3s ease;
+}
+
+.carousel-btn-prev:hover svg {
+  transform: translateX(-4px);
+}
+
+.carousel-btn-next:hover svg {
+  transform: translateX(4px);
+}
+
+/* Quotes Section */
+.quotes-section {
+  padding: 5rem 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.quote-box {
+  padding: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(168, 85, 247, 0.1));
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.quote-box:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: rgba(244, 114, 182, 0.5);
+  box-shadow: 0 20px 40px rgba(6, 182, 212, 0.2);
+}
+
+.quote-text {
+  font-size: 1.25rem;
+  color: #e0f2fe;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Explanation Section */
+.explanation-section {
+  padding: 5rem 1.5rem;
+}
+
+.explanation-container {
+  max-width: 56rem;
+}
+
+.explanation-content {
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.3), rgba(157, 23, 77, 0.3));
+  backdrop-filter: blur(24px);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.explanation-content p {
+  font-size: 1.125rem;
+  color: #e0f2fe;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+.explanation-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Solution Section */
+.solution-section {
+  padding: 6rem 1.5rem;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+}
+
+.solution-container {
+  max-width: 32rem;
+  text-align: center;
+}
+
+.solution-text {
+  font-size: 1.5rem;
+  color: #a5f3fc;
+  margin-bottom: 2rem;
+  line-height: 1.75;
+}
+
+.solution-btn {
+  padding: 1.25rem 2.5rem;
+  background: linear-gradient(to right, #22d3ee, #a855f7, #ec4899);
+  border: none;
+  border-radius: 9999px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 20px 40px rgba(236, 72, 153, 0.4);
+  transition: all 0.3s ease;
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.solution-btn:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 25px 50px rgba(236, 72, 153, 0.6);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+  
+  .main-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .video-item {
+    width: 90%;
+    height: 250px;
+  }
+  
+  .carousel-container {
+    height: 350px;
+  }
+  
+  .carousel-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .quotes-grid {
+    grid-template-columns: 1fr;
+  }
 }
