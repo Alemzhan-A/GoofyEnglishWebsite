@@ -136,20 +136,20 @@ export default function LanguageAwarenessWebsite() {
       <section className="explanation-section">
         <div className="section-container explanation-container">
           <h2 className="section-title">The Silent Erosion</h2>
-          
+
           <div className="explanation-content">
             <p>
               Language is more than words—it's the fabric of identity, the bridge to heritage, and the keeper of culture. When international students immerse themselves in foreign academic environments, they often find themselves in a linguistic crossroads.
             </p>
-            
+
             <p>
               The pressure to excel academically in a second language is immense. Students spend hours reading, writing, and thinking in English or other foreign languages. Slowly, imperceptibly, their native tongue begins to slip away. Vocabulary shrinks, grammar becomes uncertain, and the natural flow of their mother language feels forced.
             </p>
-            
+
             <p>
               This isn't just about losing words—it's about losing connection. Connection to family, to community, to the stories and wisdom passed down through generations. It's about young people returning home and feeling like strangers in their own culture.
             </p>
-            
+
             <p>
               The data paints a concerning picture: studies show that prolonged exposure to a dominant foreign language can significantly impact native language proficiency, especially in academic and formal contexts. What starts as occasional forgetfulness can evolve into a profound linguistic gap.
             </p>
@@ -157,15 +157,124 @@ export default function LanguageAwarenessWebsite() {
         </div>
       </section>
 
+      {/* Research Context Section */}
+      <section className="research-section">
+        <div className="section-container">
+          <h2 className="section-title">Understanding the Identity Crisis</h2>
+
+          <div className="research-grid">
+            <div className="research-card">
+              <div className="research-icon">🌍</div>
+              <h3 className="research-card-title">Chronotopic Identities</h3>
+              <p className="research-card-text">
+                Students move from the chronotope of "home" where their native language indexes warmth, familiarity, and belonging, to the chronotope of "university," where English indexes competence, intelligence, and academic legitimacy (Blommaert, 2015).
+              </p>
+            </div>
+
+            <div className="research-card">
+              <div className="research-icon">💬</div>
+              <h3 className="research-card-title">Linguistic Shame</h3>
+              <p className="research-card-text">
+                Hillman (2020) identifies "linguistic shame" as the emotional response when speakers fail to meet community expectations. This reflects a deeper tension about how language ties into belonging and authenticity.
+              </p>
+            </div>
+
+            <div className="research-card">
+              <div className="research-icon">🔍</div>
+              <h3 className="research-card-title">Micro-Hegemonies</h3>
+              <p className="research-card-text">
+                As Blommaert and Varis (2015) argue, identity is constructed through "clusters of features" that a community recognizes as authentic. Declining native-language fluency can trigger feelings of failed authenticity and social inadequacy.
+              </p>
+            </div>
+          </div>
+
+          <div className="research-context">
+            <h3 className="context-title">The CMU-Q Context</h3>
+            <p className="context-text">
+              At Carnegie Mellon University in Qatar, students from dozens of linguistic and cultural backgrounds navigate an English-dominant academic environment. Despite this diversity, the unintentional pressure to prioritize English creates what researchers call "micro-hegemonies"—localized norms that subtly determine which linguistic behaviors are valued and who is recognized as competent.
+            </p>
+            <p className="context-text">
+              Even when students meet friends from the same country on campus, the conversation automatically shifts to English because it feels more efficient or 'natural'. This chronotopic movement illustrates how different spaces impose different indexical expectations on speakers, and students' linguistic identities adapt accordingly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="about-section">
+        <div className="section-container about-container">
+          <h2 className="section-title">About This Project</h2>
+
+          <div className="about-content">
+            <div className="about-authors">
+              <p className="about-text">
+                <strong>Created by:</strong> Aanchal & Alemzhan
+              </p>
+              <p className="about-text">
+                <strong>Institution:</strong> Carnegie Mellon University Qatar
+              </p>
+              <p className="about-text">
+                <strong>Course:</strong> 76-100 Squires - Multimodal Project
+              </p>
+            </div>
+
+            <div className="about-purpose">
+              <h3 className="about-subtitle">Purpose and Goals</h3>
+              <p className="about-description">
+                This multimodal project addresses a growing identity-related challenge experienced by multilingual students studying in English-medium universities abroad: the gradual decline in proficiency and confidence in their native languages. Our goal is to bring visibility to this issue by connecting students' lived experiences to scholarly research, using video testimonies as supporting evidence.
+              </p>
+            </div>
+
+            <div className="about-references">
+              <h3 className="about-subtitle">Key References</h3>
+              <ul className="references-list">
+                <li>Blommaert, J. (2015). Chronotopic identities. <em>Tilburg papers in cultural studies, no. 139.</em></li>
+                <li>Blommaert, J., & Varis, P. (2015). Enoughness, accent and light communities: Essays on contemporary identities. <em>Tilburg papers in cultural studies, no. 139.</em></li>
+                <li>Hillman, S. (2020). Linguistic shame in the Gulf: Identity, language ideologies, and the multilingual self. <em>Journal of Sociolinguistics, 24(3), 329-346.</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Solution Section */}
       <section className="solution-section">
         <div className="section-container solution-container">
+          <h2 className="section-title">A Path Forward</h2>
           <p className="solution-text">
             We believe there's a way to bridge both worlds—to thrive academically while keeping your cultural voice alive.
           </p>
-          <button className="solution-btn">
-            Explore Our Approach
-          </button>
+          <p className="solution-description">
+            We propose an AI-driven tool that simulates conversations with native speakers, helping students practice their native language and reconnect with their linguistic roots. Our technical guidelines explain how to combine existing APIs (text-to-speech, language translators, face animation models, and multilingual models) to create an accessible solution.
+          </p>
+
+          <div className="demo-video-container">
+            <h3 className="demo-title">See It In Action</h3>
+            <div className="demo-video-wrapper">
+              <video
+                className="demo-video"
+                controls
+                controlsList="nodownload"
+              >
+                <source src="/videos/एआई भिडियो सिर्जना.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+          <div className="solution-buttons">
+            <a
+              href="https://docs.google.com/document/d/1-EtaXFxKs8ZUdfwHi7arQmiLk4YTobNHIJFcb1q0KZg/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="solution-btn primary"
+            >
+              View Technical Guidelines
+            </a>
+            <button className="solution-btn secondary">
+              Learn More About Our Research
+            </button>
+          </div>
         </div>
       </section>
     </div>
