@@ -20,8 +20,9 @@ export default function LanguageAwarenessWebsite() {
   const videos = [
     "/videos/jamieVid.mp4",
     "/videos/sarahVid.mp4",
-    "/videos/3.mp4",
-    "/videos/4.mp4",
+    "/videos/adi.mp4",
+    "/videos/emilbek.mp4",
+    "/videos/sarahVid.mp4",
   ];
 
   const quotes = [
@@ -139,20 +140,18 @@ export default function LanguageAwarenessWebsite() {
 
           <div className="explanation-content">
             <p>
-              Language is more than words—it's the fabric of identity, the bridge to heritage, and the keeper of culture. When international students immerse themselves in foreign academic environments, they often find themselves in a linguistic crossroads.
+The purpose of our multimodal project is to address a growing identity-related challenge experienced by multilingual students studying in English-medium universities abroad: the gradual decline in proficiency and confidence in their native languages. Students who relocate abroad for higher education often struggle during conversations in their native languages. They usually pause mid-sentence, searching for basic vocabulary that they thought they would never forget. These moments sometimes create embarrassment or self-consciousness and may occasionally lead to what Hilman identifies as “linguistic shame”. This emotional response reflects a deeper tension about how language ties into belonging. As Blommaert and Varis (2015) argue, identity is constructed through “clusters of features” that a community recognizes as authentic. For multilingual students, one of the most important of these clusters of features is fluency in their native language. When that fluency begins to fade, it can feel like losing a marker of “enoughness” within their local community, and this loss becomes closely tied to questions of identity.
             </p>
 
             <p>
-              The pressure to excel academically in a second language is immense. Students spend hours reading, writing, and thinking in English or other foreign languages. Slowly, imperceptibly, their native tongue begins to slip away. Vocabulary shrinks, grammar becomes uncertain, and the natural flow of their mother language feels forced.
+Our goal is to develop an interactive website that brings visibility to this issue. The project will connect students’ lived experiences to the findings of Hillman, Blommaert, and Blommaert & Varis, using video testimonies as supporting evidence. In addition, the website will propose a conceptual AI-driven tool that could help address the impact of native-language loss.
             </p>
 
             <p>
-              This isn't just about losing words—it's about losing connection. Connection to family, to community, to the stories and wisdom passed down through generations. It's about young people returning home and feeling like strangers in their own culture.
+Ultimately, the project seeks to raise awareness about the identity tensions produced by linguistic decline while offering a theoretically informed proposal for how an AI-based tool could meaningfully address these challenges.
             </p>
 
-            <p>
-              The data paints a concerning picture: studies show that prolonged exposure to a dominant foreign language can significantly impact native language proficiency, especially in academic and formal contexts. What starts as occasional forgetfulness can evolve into a profound linguistic gap.
-            </p>
+           
           </div>
         </div>
       </section>
