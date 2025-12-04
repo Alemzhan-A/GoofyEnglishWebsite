@@ -77,6 +77,43 @@ export default function LanguageAwarenessWebsite() {
         </div>
       </header>
 
+      {/* About Section */}
+      <section className="about-section">
+        <div className="section-container about-container">
+          <h2 className="section-title">About This Project</h2>
+
+          <div className="about-content">
+            <div className="about-authors">
+              <p className="about-text">
+                <strong>Created by:</strong> Aanchal & Alemzhan
+              </p>
+              <p className="about-text">
+                <strong>Institution:</strong> Carnegie Mellon University Qatar
+              </p>
+              <p className="about-text">
+                <strong>Course:</strong> 76-100 Squires - Multimodal Project
+              </p>
+            </div>
+
+            <div className="about-purpose">
+              <h3 className="about-subtitle">Purpose and Goals</h3>
+              <p className="about-description">
+                This multimodal project addresses a growing identity-related challenge experienced by multilingual students studying in English-medium universities abroad: the gradual decline in proficiency and confidence in their native languages. Our goal is to bring visibility to this issue by connecting students' lived experiences to scholarly research, using video testimonies as supporting evidence.
+              </p>
+            </div>
+
+            <div className="about-references">
+              <h3 className="about-subtitle">Key References</h3>
+              <ul className="references-list">
+                <li>Blommaert, J. (2015). Chronotopic identities. <em>Tilburg papers in cultural studies, no. 139.</em></li>
+                <li>Blommaert, J., & Varis, P. (2015). Enoughness, accent and light communities: Essays on contemporary identities. <em>Tilburg papers in cultural studies, no. 139.</em></li>
+                <li>Hillman, S. (2020). Linguistic shame in the Gulf: Identity, language ideologies, and the multilingual self. <em>Journal of Sociolinguistics, 24(3), 329-346.</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Video Carousel Section */}
       <section className="video-section">
         <div className="section-container">
@@ -199,42 +236,7 @@ Ultimately, the project seeks to raise awareness about the identity tensions pro
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="about-section">
-        <div className="section-container about-container">
-          <h2 className="section-title">About This Project</h2>
-
-          <div className="about-content">
-            <div className="about-authors">
-              <p className="about-text">
-                <strong>Created by:</strong> Aanchal & Alemzhan
-              </p>
-              <p className="about-text">
-                <strong>Institution:</strong> Carnegie Mellon University Qatar
-              </p>
-              <p className="about-text">
-                <strong>Course:</strong> 76-100 Squires - Multimodal Project
-              </p>
-            </div>
-
-            <div className="about-purpose">
-              <h3 className="about-subtitle">Purpose and Goals</h3>
-              <p className="about-description">
-                This multimodal project addresses a growing identity-related challenge experienced by multilingual students studying in English-medium universities abroad: the gradual decline in proficiency and confidence in their native languages. Our goal is to bring visibility to this issue by connecting students' lived experiences to scholarly research, using video testimonies as supporting evidence.
-              </p>
-            </div>
-
-            <div className="about-references">
-              <h3 className="about-subtitle">Key References</h3>
-              <ul className="references-list">
-                <li>Blommaert, J. (2015). Chronotopic identities. <em>Tilburg papers in cultural studies, no. 139.</em></li>
-                <li>Blommaert, J., & Varis, P. (2015). Enoughness, accent and light communities: Essays on contemporary identities. <em>Tilburg papers in cultural studies, no. 139.</em></li>
-                <li>Hillman, S. (2020). Linguistic shame in the Gulf: Identity, language ideologies, and the multilingual self. <em>Journal of Sociolinguistics, 24(3), 329-346.</em></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+            {/* previous about section */}
 
       {/* Solution Section */}
       <section className="solution-section">
