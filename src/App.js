@@ -113,7 +113,7 @@ export default function LanguageAwarenessWebsite() {
           </div>
         </div>
       </section>
-      
+
       {/* Video Carousel Section */}
       <section className="video-section">
         <div className="section-container">
@@ -176,17 +176,19 @@ export default function LanguageAwarenessWebsite() {
           <h2 className="section-title">The Silent Erosion</h2>
 
           <div className="explanation-content">
-            <p>
-The purpose of our multimodal project is to address a growing identity-related challenge experienced by multilingual students studying in English-medium universities abroad: the gradual decline in proficiency and confidence in their native languages. Students who relocate abroad for higher education often struggle during conversations in their native languages. They usually pause mid-sentence, searching for basic vocabulary that they thought they would never forget. These moments sometimes create embarrassment or self-consciousness and may occasionally lead to what Hilman identifies as “linguistic shame”. This emotional response reflects a deeper tension about how language ties into belonging. As Blommaert and Varis (2015) argue, identity is constructed through “clusters of features” that a community recognizes as authentic. For multilingual students, one of the most important of these clusters of features is fluency in their native language. When that fluency begins to fade, it can feel like losing a marker of “enoughness” within their local community, and this loss becomes closely tied to questions of identity.
-            </p>
 
-            <p>
-Our goal is to develop an interactive website that brings visibility to this issue. The project will connect students’ lived experiences to the findings of Hillman, Blommaert, and Blommaert & Varis, using video testimonies as supporting evidence. In addition, the website will propose a conceptual AI-driven tool that could help address the impact of native-language loss.
-            </p>
+<p>This website serves as a dedicated platform to explore and bring <strong>visibility</strong> to a subtle yet significant identity challenge faced by <strong>multilingual students</strong> studying in English-medium universities abroad: the gradual decline in proficiency and confidence in their native languages.</p>
 
-            <p>
-Ultimately, the project seeks to raise awareness about the identity tensions produced by linguistic decline while offering a theoretically informed proposal for how an AI-based tool could meaningfully address these challenges.
-            </p>
+<p>Relocating abroad for higher education often immerses students in an English-dominant linguistic environment, leading to a subtle erosion of their native language fluency. This phenomenon manifests in moments of hesitation, struggling to recall basic vocabulary, or pausing mid-sentence during native language conversations—experiences that can lead to feelings of <strong>embarrassment or self-consciousness</strong>.</p>
+
+<p>These moments sometimes trigger what scholar Hilman identifies as <strong>“linguistic shame.”</strong> This emotional response highlights a deeper tension concerning the link between language and belonging.</p>
+
+<ul>
+    <li><strong>Identity and Fluency:</strong> As Blommaert and Varis (2015) argue, identity is constructed through recognized <strong>“clusters of features”</strong> that signal authenticity within a community. For multilingual individuals, fluency in their native tongue is often one of the most critical markers in this cluster.</li>
+    <li><strong>The Loss of "Enoughness":</strong> When native fluency begins to fade, it can feel like losing a core marker of <strong>“enoughness”</strong> within their local community, inevitably becoming intertwined with profound questions of identity and belonging.</li>
+</ul>
+
+<p>The ultimate goal of this project is to <strong>raise awareness</strong> about the identity tensions produced by native-language decline and to offer a <strong>theoretically informed proposal</strong> for how an AI-based tool could meaningfully and practically address these challenges for multilingual students worldwide.</p>
 
            
           </div>

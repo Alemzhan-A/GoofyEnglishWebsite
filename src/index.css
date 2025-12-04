@@ -261,6 +261,12 @@ body {
   margin-bottom: 1.5rem;
 }
 
+li {
+  color: #e0f2fe;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
 .explanation-content p:last-child {
   margin-bottom: 0;
 }
